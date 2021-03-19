@@ -24,6 +24,16 @@ repos:
         args:
           - --branch
           - main
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.10.0
+    hooks:
+      - id: pyupgrade
+        args:
+          - --py3-plus
+          - --py36-plus
+          - --py37-plus
+          - --py38-plus
+          - --py39-plus
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v2.2.3
     hooks:
