@@ -11,6 +11,8 @@ pyupgrade = "*"
 black = "*"
 blacken-docs = "*"
 isort = "*"
+flake8 = "*"
+flake8-bugbear = "*"
 
 [requires]
 python_version = "3.9"
