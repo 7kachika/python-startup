@@ -13,6 +13,7 @@ blacken-docs = "*"
 isort = "*"
 flake8 = "*"
 flake8-bugbear = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.9"
